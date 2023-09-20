@@ -1,0 +1,95 @@
+{
+    "tracks": [
+      {
+        "id": 1,
+        "name": "Mario Kart Stadium",
+        "cup": "Mushroom Cup",
+        "image": "https://mario.wiki.gallery/images/thumb/0/09/MK8_Mario_Kart_Stadium_Course_Icon.png/359px-MK8_Mario_Kart_Stadium_Course_Icon.png",
+        "preview": "",
+        "appearances": ["Mario Kart 8 Deluxe"]
+      },
+      {
+        "id": 5,
+        "name": "Mario Circuit",
+        "cup": "",
+        "image": "",
+        "preview": "",
+        "appearances": ["Mario Kart 8 Deluxe"]
+      },
+      {
+        "id": 9,
+        "name": "Sunshine Airport",
+        "cup": "",
+        "image": "",
+        "preview": "",
+        "appearances": ["Mario Kart 8 Deluxe"]
+      },
+      {
+        "id": 1,
+        "name": "",
+        "cup": "",
+        "image": "",
+        "preview": "",
+        "appearances": []
+      },
+      {
+        "id": 1,
+        "name": "",
+        "cup": "",
+        "image": "",
+        "preview": "",
+        "appearances": []
+      }
+    ],
+    "cups": [
+      {
+        "id": 1,
+        "name": "Mushroom Cup",
+        "image": "https://mario.wiki.gallery/images/1/15/MK8_MushroomCup.png",
+        "alt_image": "https://mario.wiki.gallery/images/c/cb/Mario_Kart_8_-_Mushroom_Cup_logo.svg"
+      },
+      {
+        "id": 2,
+        "name": "Flower Cup",
+        "image": "https://mario.wiki.gallery/images/a/a8/MK8_FlowerCup.png",
+        "alt_image": "https://mario.wiki.gallery/images/0/0b/Mario_Kart_8_-_Flower_Cup_logo.svg"
+      },
+      {
+        "id": 3,
+        "name": "Star Cup",
+        "image": "https://mario.wiki.gallery/images/7/78/MK8_Star_Cup_Emblem.png",
+        "alt_image": "https://mario.wiki.gallery/images/7/7a/MK8_Star_Cup_Alternate_Emblem.svg"
+      },
+      {
+        "id": 4,
+        "name": "Special Cup",
+        "image": "",
+        "alt_image": ""
+      },
+      {
+        "id": 5,
+        "name": "Shell Cup",
+        "image": "",
+        "alt_image": ""
+      },
+      {
+        "id": 6,
+        "name": "Banana Cup",
+        "image": "",
+        "alt_image": ""
+      },
+      {
+        "id": 7,
+        "name": "Leaf Cup",
+        "image": "",
+        "alt_image": ""
+      },
+      {
+        "id": 8,
+        "name": "Lightning Cup",
+        "image": "",
+        "alt_image": ""
+      }
+    ]
+  }
+  
