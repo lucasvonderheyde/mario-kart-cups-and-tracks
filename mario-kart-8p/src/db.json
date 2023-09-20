@@ -9,17 +9,41 @@
         "appearances": ["Mario Kart 8 Deluxe"]
       },
       {
+        "id": 2,
+        "name": "Water Park",
+        "cup": "Mushroom Cup",
+        "image": "https://mario.wiki.gallery/images/thumb/4/40/MK8_Water_Park_Course_Icon.png/359px-MK8_Water_Park_Course_Icon.png",
+        "preview": "",
+        "appearances": []
+      },
+      {
+        "id": 3,
+        "name": "Sweet Sweet Canyon",
+        "cup": "Mushroom Cup",
+        "image": "https://mario.wiki.gallery/images/thumb/a/ad/MK8_Sweet_Sweet_Canyon_Course_Icon.png/359px-MK8_Sweet_Sweet_Canyon_Course_Icon.png",
+        "preview": "",
+        "appearances": []
+      },
+      {
+        "id": 4,
+        "name": "Thwomp Ruins",
+        "cup": "Mushroom Cup",
+        "image": "https://mario.wiki.gallery/images/thumb/e/e8/MK8_Thwomp_Ruins_Course_Icon.png/359px-MK8_Thwomp_Ruins_Course_Icon.png",
+        "preview": "",
+        "appearances": []
+      },
+      {
         "id": 5,
         "name": "Mario Circuit",
-        "cup": "",
-        "image": "",
+        "cup": "Flower Cup",
+        "image": "https://mario.wiki.gallery/images/thumb/2/28/MK8_Mario_Circuit_Course_Icon.png/359px-MK8_Mario_Circuit_Course_Icon.png",
         "preview": "",
         "appearances": ["Mario Kart 8 Deluxe"]
       },
       {
         "id": 9,
         "name": "Sunshine Airport",
-        "cup": "",
+        "cup": "Flower Cup",
         "image": "",
         "preview": "",
         "appearances": ["Mario Kart 8 Deluxe"]
@@ -33,7 +57,7 @@
         "appearances": []
       },
       {
-        "id": 1,
+        "id": "",
         "name": "",
         "cup": "",
         "image": "",

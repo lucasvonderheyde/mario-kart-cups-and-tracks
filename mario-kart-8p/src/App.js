@@ -1,6 +1,7 @@
 import jsonData from "./db.json"
 import './App.css';
 import { useEffect, useState } from 'react';
+import Cups from "./components/Cups/Cups";
 
 export default function App() {
   const [cups, setCups] = useState([])
@@ -10,20 +11,21 @@ export default function App() {
     fetch("http://localhost:3001/cups")
     .then(response => response.json())
     .then(incomingCups => setCups(previousValue => incomingCups))
-    console.log(cups)
   }, [])
 
   useEffect(() => {
     fetch("http://localhost:3001/tracks")
     .then(response => response.json())
     .then(incomingTracks => setTracks(previousValue => incomingTracks))
-    console.log(tracks)
   }, [])
+
+  
 
   return (
     <div className="App">
-      <header>Welcome to Mario Kart</header>
-      {/* <Cups /> */}
+      {cups.map((cup, index) => {
+        return <Cups key={index} {...cup} tracks={tracks} />
+      })}
     </div>
   );
 }
