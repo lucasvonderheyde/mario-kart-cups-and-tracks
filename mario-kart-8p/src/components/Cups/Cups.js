@@ -20,9 +20,9 @@ export default function Cups({ name, image, alt_image, tracks }) {
             <h1 className="cup-title">{name}</h1>
             <ul className="track-list">
                 {tracks.map((track, index) => {
-                    return track.cup.toLowerCase() === name.toLowerCase() ? (
+                    return tracksRevealed ? null : (track.cup.toLowerCase() === name.toLowerCase() ? (
                     <Tracks key={index} {...track} /> 
-                    ) : null
+                    ) : null) 
                 })}
             </ul>
         </div>
