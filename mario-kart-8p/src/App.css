@@ -1,1 +1,7 @@
-
+body {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_7UZrxkaXopnQR5AEJ85pVTKiQcujNVGlrA&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
