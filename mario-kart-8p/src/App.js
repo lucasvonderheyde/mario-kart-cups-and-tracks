@@ -2,6 +2,7 @@ import jsonData from "./db.json"
 import './App.css';
 import { useEffect, useState } from 'react';
 import Cups from "./components/Cups/Cups";
+import Header from "./components/Header/Header";
 
 export default function App() {
   const [cups, setCups] = useState([])
@@ -23,6 +24,7 @@ export default function App() {
 
   return (
     <div className="App">
+      <Header />
       {cups.map((cup, index) => {
         return <Cups key={index} {...cup} tracks={tracks} />
       })}
