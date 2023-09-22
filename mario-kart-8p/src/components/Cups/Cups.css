@@ -3,9 +3,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 5px solid transparent;
   padding: 10px;
+  margin-right: -80px; /* Adjust the margin value as needed to make the right side larger */
+  border: 5px solid transparent;
+  border-right-width: 250px; /* Adjust the width of the right border as needed */
+  border-right-color: transparent; /* Set the right border color to transparent */
 }
+
 
 .alt-image {
   height: 214.233px;

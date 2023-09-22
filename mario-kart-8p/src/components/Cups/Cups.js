@@ -10,7 +10,7 @@ export default function Cups({ name, image, alt_image, banner, tracks }) {
     const [cupHidesTrack, setCupHideTracks] = useState(true)
     const [bannerIsShowing, setBannerIsShowing] = useState(true)
 
-    const imageSrc = tracksRevealed ? image : alt_image
+    const imageSrc = tracksRevealed ? alt_image : image
     const imageClassName = tracksRevealed ? "image" : "alt-image"
 
     function handleClick(){
