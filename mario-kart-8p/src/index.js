@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import ErrorPage from './components/ErrorPage/ErrorPage';
+import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import HomePage from './components/HomePage/HomePage';
+import HomePage from './Pages/HomePage/HomePage';
 import Cups from './components/Cups/Cups';
-import TracksPage from './TracksPage/TracksPage';
+import TracksPage from './Pages/TracksPage/TracksPage';
 
 const router = createBrowserRouter([
   {

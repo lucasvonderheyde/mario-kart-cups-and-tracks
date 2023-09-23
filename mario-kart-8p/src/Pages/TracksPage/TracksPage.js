@@ -1,6 +1,6 @@
-import Navbar from "../components/Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import { useEffect, useState } from "react";
-import Tracks from "../components/Tracks/Tracks";
+import Tracks from "../../components/Tracks/Tracks";
 
 export default function TracksPage(){
    
