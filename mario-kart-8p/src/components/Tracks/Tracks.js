@@ -1,9 +1,13 @@
+import { Link } from "react-router-dom"
 import "./Tracks.css"
 
 export default function Tracks({ name, image }){
+
     return (
         <div className="track">
-            <img className="track-image" src={image} />
+            <Link to="/tracks-page" >
+                <img className="track-image" src={image}  />
+            </Link>
         </div>
     )
 }

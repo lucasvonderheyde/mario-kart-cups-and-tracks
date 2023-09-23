@@ -3,6 +3,7 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import Cups from "./components/Cups/Cups";
 import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
 
 export default function App() {
   const [cups, setCups] = useState([])
@@ -20,13 +21,12 @@ export default function App() {
     .then(incomingTracks => setTracks(previousValue => incomingTracks))
   }, [])
 
-  
-
   return (
       <div className="App">
         <Header />
-        {cups.map((cup, index) => {
-          return <Cups key={index} {...cup} tracks={tracks} />
+        <Navbar />
+        {cups.map(cup => {
+          return <Cups key={cup.id} {...cup} tracks={tracks} />
         })}
       </div>
   );

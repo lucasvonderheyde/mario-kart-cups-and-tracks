@@ -28,9 +28,9 @@ export default function Cups({ name, image, alt_image, banner, tracks }) {
             <img onClick={handleClick} src={imageSrc} className={imageClassName} />
             <h1 className="cup-title">{cupHidesTrack ? null : name}</h1>
             <ul className="track-list">
-                {tracks.map((track, index) => {
+                {tracks.map(track => {
                     return tracksRevealed ? null : (track.cup.toLowerCase() === name.toLowerCase() ? (
-                    <Tracks key={index} {...track} /> 
+                    <Tracks key={track.id} {...track} /> 
                     ) : null) 
                 })}
             </ul>
