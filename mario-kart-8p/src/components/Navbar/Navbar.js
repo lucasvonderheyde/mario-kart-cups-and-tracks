@@ -5,7 +5,7 @@ export default function Navbar() {
           <ul>
             <li><a href="/">Home</a></li>
             <li><a href="/cups">Cups</a></li>
-            <li><a href="/tracks-page">All Tracks</a></li>
+            <li><a href="/tracks">All Tracks</a></li>
          </ul>
         </nav>
     );
