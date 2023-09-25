@@ -10,7 +10,12 @@ import {
 } from "react-router-dom";
 import HomePage from './Pages/HomePage/HomePage';
 import Cups from './components/Cups/Cups';
-import TracksPage from './Pages/TracksPage/TracksPage';
+import TracksPage, { trackDataLoader } from './Pages/TracksPage/TracksPage';
+import SingleTrackPage from './Pages/SingleTrackPage/SingleTrackPage';
+
+export function trackLoader(){
+
+}
 
 const router = createBrowserRouter([
   {
@@ -23,8 +28,18 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: "/tracks-page",
-    element: <TracksPage />
+    path: "/tracks",
+    element: <TracksPage />,
+    loader: trackDataLoader,
+    children: [
+      {
+        path: ":id",
+        element: <SingleTrackPage />,
+        loader: async ({ params }) => {
+          return fetch(`http://localhost:3001/tracks/${params.id}`)
+        }
+      }
+    ]
   }
 ]);
 
