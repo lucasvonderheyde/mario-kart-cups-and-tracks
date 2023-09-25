@@ -30,17 +30,16 @@ const router = createBrowserRouter([
   {
     path: "/tracks",
     element: <TracksPage />,
-    loader: trackDataLoader,
-    children: [
-      {
-        path: ":id",
-        element: <SingleTrackPage />,
-        loader: async ({ params }) => {
-          return fetch(`http://localhost:3001/tracks/${params.id}`)
-        }
+    loader: trackDataLoader
+  },
+  {
+      path: "/tracks/tracks/:id",
+      element: <SingleTrackPage />,
+      loader: async ({ params }) => {
+        const test = fetch(`http://localhost:3001/tracks/${params.id}`)
+        return test
       }
-    ]
-  }
+    }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

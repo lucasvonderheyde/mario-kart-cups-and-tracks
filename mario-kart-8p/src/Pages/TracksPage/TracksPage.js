@@ -19,6 +19,6 @@ export default function TracksPage(){
 export const trackDataLoader = async() => {
     const trackResponse = await fetch("http://localhost:3001/tracks")
     const tracks = await trackResponse.json()
-
+    
     return tracks
 }
