@@ -11,7 +11,7 @@ import {
 import HomePage from './Pages/HomePage/HomePage';
 import Cups from './components/Cups/Cups';
 import TracksPage, { trackDataLoader } from './Pages/TracksPage/TracksPage';
-import SingleTrackPage from './Pages/SingleTrackPage/SingleTrackPage';
+import SingleTrackPage, { singleTrackDataLoader } from './Pages/SingleTrackPage/SingleTrackPage';
 
 export function trackLoader(){
 
@@ -33,13 +33,10 @@ const router = createBrowserRouter([
     loader: trackDataLoader
   },
   {
-      path: "/tracks/tracks/:id",
-      element: <SingleTrackPage />,
-      loader: async ({ params }) => {
-        const test = fetch(`http://localhost:3001/tracks/${params.id}`)
-        return test
-      }
-    }
+    path: "/tracks/tracks/:id",
+    element: <SingleTrackPage />,
+    loader: singleTrackDataLoader
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
