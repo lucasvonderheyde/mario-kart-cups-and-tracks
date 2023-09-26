@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import ErrorPage from './Pages/ErrorPage/ErrorPage';
 import reportWebVitals from './reportWebVitals';
 import {
@@ -9,9 +8,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import HomePage from './Pages/HomePage/HomePage';
-import Cups from './components/Cups/Cups';
 import TracksPage, { trackDataLoader } from './Pages/TracksPage/TracksPage';
 import SingleTrackPage, { singleTrackDataLoader } from './Pages/SingleTrackPage/SingleTrackPage';
+import CupsPage, { cupsDataLoader } from './Pages/CupsPage/CupsPage';
 
 export function trackLoader(){
 
@@ -25,7 +24,8 @@ const router = createBrowserRouter([
   },
   {
     path: "/cups",
-    element: <App />
+    element: <CupsPage />,
+    loader: cupsDataLoader
   },
   {
     path: "/tracks",

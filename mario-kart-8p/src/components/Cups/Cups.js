@@ -1,10 +1,17 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Tracks from "../Tracks/Tracks"
 import "./Cups.css"
 import Banner from "../Banner/Banner"
-import { prettyDOM } from "@testing-library/react"
 
-export default function Cups({ name, image, alt_image, banner, tracks }) {
+export default function Cups({ name, image, alt_image, banner }) {
+
+    const [tracks, setTracks] = useState([])
+
+    useEffect(() => {
+        fetch("http://localhost:3001/tracks")
+        .then(response => response.json())
+        .then(incomingTracks => setTracks(previousValue => incomingTracks))
+      }, [])
 
     const [tracksRevealed, setTracksRevealed] = useState(true)
     const [cupHidesTrack, setCupHideTracks] = useState(true)
@@ -18,6 +25,8 @@ export default function Cups({ name, image, alt_image, banner, tracks }) {
         setCupHideTracks(previousValue => !previousValue)
         setBannerIsShowing(previousValue => !previousValue)
     }
+
+
 
 
     return (

@@ -1,0 +1,45 @@
+.cups {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  margin-right: -80px; /* Adjust the margin value as needed to make the right side larger */
+  border: 5px solid transparent;
+  border-right-width: 250px; /* Adjust the width of the right border as needed */
+  border-right-color: transparent; /* Set the right border color to transparent */
+}
+
+
+.alt-image {
+  height: 214.233px;
+  width: 214.233px;
+  margin-right: 20px;
+  outline: 1px solid transparent;
+}
+
+.image {
+  height: 214.233px;
+  width: 214.233px;
+}
+
+.track-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.track-list li {
+  margin-right: 10px;
+}
+
+.banner-image {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
