@@ -3,7 +3,7 @@ import "./Tracks.css"
 
 export default function Tracks({ name, image, id }){
 
-    const trackId = `tracks/${id}`
+    const trackId = `/tracks/${id}`
 
     return (
         <div className="track">

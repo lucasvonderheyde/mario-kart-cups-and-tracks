@@ -33,7 +33,7 @@ const router = createBrowserRouter([
     loader: trackDataLoader
   },
   {
-    path: "/tracks/tracks/:id",
+    path: "/tracks/:id",
     element: <SingleTrackPage />,
     loader: singleTrackDataLoader
   }
