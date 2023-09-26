@@ -1,13 +1,15 @@
 import { useLoaderData } from "react-router-dom"
-import App from "../../App"
-
+import Navbar from "../../components/Navbar/Navbar"
 
 export default function SingleTrackPage(){
     
     const trackData = useLoaderData()
 
     return(
-        <h1>{trackData.name}</h1>
+        <div>
+            <Navbar />
+            <h1>{trackData.name}</h1>
+        </div>
     )
 }
 
