@@ -4,50 +4,60 @@ import Tracks from "../../components/Tracks/Tracks";
 import { useLoaderData } from "react-router-dom";
 
 export default function TracksPage(){
-   
-    const tracksData = useLoaderData()
-    const [selectedOption, setSelectedOption] = useState('');
 
-    const [filterTracks, setFilterTracks] = useState(tracksData)
+    const tracksData = useLoaderData();
 
-    function handleChange(event) {
-        const filteredTracksData = tracksData.filter(track => {
-          return track.name.toLowerCase().includes(event.target.value.toLowerCase())
-        })
-        setFilterTracks(previousValue => filteredTracksData)
-    }    
-    
-    const handleSelectChange = (event) => {
-        setSelectedOption(event.target.value);
+    const [selectedAppearance, setSelectedAppearance] = useState('');
+    const [filterGames, setFilterGames] = useState('');
+
+    const handleTextChange = (event) => {
+        setFilterGames(event.target.value);
     };
 
-    const collectionOfAppearances = []
+    const handleSelectChange = (event) => {
+        setSelectedAppearance(event.target.value);
+    };
 
-    tracksData.forEach((track) => {
-        track.appearances.forEach((appearance) => {
-          if (!collectionOfAppearances.includes(appearance)) {
-            collectionOfAppearances.push(appearance);
-          }
+    const uniqueAppearances = new Set();
+    tracksData.forEach(track => {
+        track.appearances.forEach(appearance => {
+            uniqueAppearances.add(appearance);
         });
-      });
-      
-      console.log(collectionOfAppearances);
+    });
+
+    const sortedUniqueAppearances = Array.from(uniqueAppearances).sort();
+
+    const filteredAndSortedTracks = tracksData
+        .filter(track => {
+            return track.name.toLowerCase().includes(filterGames.toLowerCase());
+        })
+        .filter(track => {
+            return selectedAppearance === '' || track.appearances.includes(selectedAppearance);
+        })
+        .sort((a, b) => {
+            return a.name.localeCompare(b.name);
+        });
 
     return (
         <>
             <Navbar />
             <input
                 type="text"
-                placeholder="Search for track"
-                onChange={handleChange}
+                placeholder="Search for track by name"
+                value={filterGames}
+                onChange={handleTextChange}
             />
-            <select value={selectedOption} onChange={handleSelectChange}>
+            <select value={selectedAppearance} onChange={handleSelectChange}>
                 <option value="">Select a Game</option>
-                {collectionOfAppearances.map(appearance => {
-                    return <option value={appearance}>{appearance}</option>
+                {sortedUniqueAppearances.map(appearance => {
+                    return (
+                        <option key={appearance} value={appearance}>
+                            {appearance}
+                        </option>
+                    );
                 })}
             </select>
-            {filterTracks.map(track => {
+            {filteredAndSortedTracks.map(track => {
                 return <Tracks key={track.id} {...track} />
             })}
         </>
