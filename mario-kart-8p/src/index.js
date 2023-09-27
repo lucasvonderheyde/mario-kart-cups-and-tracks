@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import HomePage from './Pages/HomePage/HomePage';
 import TracksPage, { trackDataLoader } from './Pages/TracksPage/TracksPage';
-import SingleTrackPage, { singleTrackDataLoader } from './Pages/SingleTrackPage/SingleTrackPage';
+import SingleTrackPage, { singleTrackDataLoader, singleCupsDataLoader } from './Pages/SingleTrackPage/SingleTrackPage';
 import CupsPage, { cupsDataLoader } from './Pages/CupsPage/CupsPage';
 
 export function trackLoader(){
@@ -25,7 +25,8 @@ const router = createBrowserRouter([
   {
     path: "/cups",
     element: <CupsPage />,
-    loader: cupsDataLoader
+    loader: cupsDataLoader,
+    id: "cups"
   },
   {
     path: "/tracks",
