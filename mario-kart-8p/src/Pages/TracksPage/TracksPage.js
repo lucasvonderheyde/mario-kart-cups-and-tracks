@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Tracks from "../../components/Tracks/Tracks";
 import { useLoaderData } from "react-router-dom";
+import "./TracksPage.css"
 
 export default function TracksPage(){
 
@@ -40,7 +41,8 @@ export default function TracksPage(){
 
     return (
         <>
-            <Navbar />
+        <Navbar />
+        <div className="top-bar">
             <input
                 type="text"
                 placeholder="Search for track by name"
@@ -49,7 +51,7 @@ export default function TracksPage(){
             />
             <select value={selectedAppearance} onChange={handleSelectChange}>
                 <option value="">Select a Game</option>
-                {sortedUniqueAppearances.map(appearance => {
+                {sortedUniqueAppearances.map((appearance) => {
                     return (
                         <option key={appearance} value={appearance}>
                             {appearance}
@@ -57,10 +59,14 @@ export default function TracksPage(){
                     );
                 })}
             </select>
-            {filteredAndSortedTracks.map(track => {
-                return <Tracks key={track.id} {...track} />
+        </div>
+        <div className="tracks-container">
+            {filteredAndSortedTracks.map((track) => {
+                return <Tracks key={track.id} {...track} />;
             })}
-        </>
+        </div>
+    </>
+    
     )
 }
 

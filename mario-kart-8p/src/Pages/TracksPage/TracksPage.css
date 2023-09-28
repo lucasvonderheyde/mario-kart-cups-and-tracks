@@ -1,0 +1,21 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem; /* Add padding for spacing */
+    background-color: #333; /* Add background color */
+}
+
+.top-bar input,
+.top-bar select {
+    padding: 0.5rem; /* Increase padding for larger size */
+    font-size: 1.25rem; /* Increase font size for larger text */
+    border-radius: 5px;
+}
+
+.tracks-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensure tracks line up evenly */
+    margin-top: 1rem; /* Add margin for spacing */
+}

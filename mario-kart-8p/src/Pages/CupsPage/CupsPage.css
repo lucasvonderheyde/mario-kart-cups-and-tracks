@@ -4,12 +4,10 @@
   flex-direction: row;
   align-items: center;
   padding: 10px;
-  margin-right: -80px; /* Adjust the margin value as needed to make the right side larger */
   border: 5px solid transparent;
-  border-right-width: 250px; /* Adjust the width of the right border as needed */
-  border-right-color: transparent; /* Set the right border color to transparent */
+  border-right-width: 0; /* Set border-right-width to 0 to remove the right border */
+  border-right-color: transparent;
 }
-
 
 .alt-image {
   height: 214.233px;
@@ -35,7 +33,7 @@
 }
 
 .banner-image {
-  position: absolute; 
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
