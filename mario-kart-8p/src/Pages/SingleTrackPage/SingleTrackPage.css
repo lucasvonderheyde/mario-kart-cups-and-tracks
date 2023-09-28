@@ -48,7 +48,10 @@ body {
 
 .cupBanner {
     width: 100%;
+    height: 500px;
     display: block;
+    align-items: center;
+    margin: auto;
 }
 
 .cupImage {

@@ -46,7 +46,7 @@ return(
 </div>
 
         <div className="cupInfoSection">
-            <img className="cupBanner" src={cup ? cup.banner : null} alt="Cup Banner" />
+            <img className="cupBanner" src={cup ? trackData.image : null} alt="Cup Banner" />
             {cup && <img className="cupImage" src={cup.image} alt="Cup" />}
             <h2 className="cupName">{trackData.cup}</h2>
         </div>
