@@ -631,77 +631,77 @@
       "name": "Flower Cup",
       "image": "https://mario.wiki.gallery/images/a/a8/MK8_FlowerCup.png",
       "alt_image": "https://mario.wiki.gallery/images/b/b0/MK8_FlowerCuptv.svg",
-      "banner": "https://mario.wiki.gallery/images/d/d6/Artwork_-_FIRE_FLOWER_%28Simple%29.svg"
+      "banner": "/Gifs/FlowerBanner.gif"
     },
     {
       "id": 3,
       "name": "Star Cup",
       "image": "https://mario.wiki.gallery/images/7/78/MK8_Star_Cup_Emblem.png",
       "alt_image": "https://mario.wiki.gallery/images/9/94/MK8_Star_Cup_Emblem_Mario_Kart_TV.svg",
-      "banner": "https://mario.wiki.gallery/images/0/0d/Artwork_-_SUPER_STAR_%28Simple%29.svg"
+      "banner": "/Gifs/StarBanner.gif"
     },
     {
       "id": 4,
       "name": "Special Cup",
       "image": "https://mario.wiki.gallery/images/6/65/MK8_Special_Cup_Emblem.png",
       "alt_image": "https://mario.wiki.gallery/images/2/21/MK8_Special_Cup_Emblem_Mario_Kart_TV.svg",
-      "banner": "https://pm1.aminoapps.com/6208/83d1cd61577e2e9368dc5b01a024257a96111163_00.jpg"
+      "banner": "/Gifs/SpecialBanner.gif"
     },
     {
       "id": 5,
       "name": "Shell Cup",
       "image": "https://mario.wiki.gallery/images/c/cc/MK8_Shell_Cup_Emblem.png",
       "alt_image": "https://mario.wiki.gallery/images/3/35/MK8_ShellCuptv.svg",
-      "banner": "https://mario.wiki.gallery/images/2/26/Green_Shell_-_2D_shaded.png"
+      "banner": "/Gifs/ShellBanner.gif"
     },
     {
       "id": 6,
       "name": "Banana Cup",
       "image": "https://mario.wiki.gallery/images/7/76/MK8_Banana_Cup_Emblem.png",
       "alt_image": "https://mario.wiki.gallery/images/b/bf/MK8_BananaCuptv.svg",
-      "banner": "https://mario.wiki.gallery/images/b/b1/Artwork_-_BANANA_%28Simple%29.svg"
+      "banner": "/Gifs/BananaBanner.gif"
     },
     {
       "id": 7,
       "name": "Leaf Cup",
       "image": "https://mario.wiki.gallery/images/2/28/MK8_Leaf_Cup_Emblem.png",
       "alt_image": "https://mario.wiki.gallery/images/5/54/MK8_LeafCuptv.svg",
-      "banner": "https://mario.wiki.gallery/images/3/3c/Artwork_-_SUPER_LEAF_%28Simple%29.svg"
+      "banner": "/Gifs/LeafBanner.gif"
     },
     {
       "id": 8,
       "name": "Lightning Cup",
       "image": "https://mario.wiki.gallery/images/1/19/MK8_Lightning_Cup_Emblem.png",
       "alt_image": "https://mario.wiki.gallery/images/a/a5/MK8_LightningCuptv.svg",
-      "banner": "https://mario.wiki.gallery/images/a/ad/LightningBoltMK8.png"
+      "banner": "/Gifs/LightningBanner.gif"
     },
     {
       "id": 9,
       "name": "Egg Cup",
       "image": "https://mario.wiki.gallery/images/e/ea/MK8_Egg_Cup_Emblem.png",
       "alt_image": "https://mario.wiki.gallery/images/0/07/MK8_EggCuptv.svg",
-      "banner": "https://mario.wiki.gallery/images/a/a7/Yoshi-egg_2D_shaded.png"
+      "banner": "/Gifs/EggBanner.gif"
     },
     {
       "id": 10,
       "name": "Triforce Cup",
       "image": "https://mario.wiki.gallery/images/6/6b/MK8_Triforce_Cup_Emblem.png",
       "alt_image": "https://mario.wiki.gallery/images/d/df/MK8_TriforceCuptv.svg",
-      "banner": "https://png.pngitem.com/pimgs/s/112-1129403_collection-of-free-triforce-transparent-jpeg-hyrule-and.png"
+      "banner": "/Gifs/TriforceBanner.gif"
     },
     {
       "id": 11,
       "name": "Crossing Cup",
       "image": "https://mario.wiki.gallery/images/9/92/MK8_Crossing_Cup_Emblem.png",
       "alt_image": "https://mario.wiki.gallery/images/e/e8/MK8_CrossingCuptv.svg",
-      "banner": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Animal_Crossing_Leaf.svg/512px-Animal_Crossing_Leaf.svg.png?20220815231826"
+      "banner": "/Gifs/CrossingBanner.gif"
     },
     {
       "id": 12,
       "name": "Bell Cup",
       "image": "https://mario.wiki.gallery/images/8/82/MK8_Bell_Cup_Emblem.png",
       "alt_image": "https://mario.wiki.gallery/images/7/75/MK8_BellCuptv.svg",
-      "banner": "https://mario.wiki.gallery/images/d/d6/Super_Bell_2D_Shaded_Artwork.png"
+      "banner": "/Gifs/BellBanner.gif"
     }
   ]
 }
