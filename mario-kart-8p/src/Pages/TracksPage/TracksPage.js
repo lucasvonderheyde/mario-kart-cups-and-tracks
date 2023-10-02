@@ -6,38 +6,39 @@ import "./TracksPage.css"
 
 export default function TracksPage(){
 
-    const tracksData = useLoaderData();
+    const tracksData = useLoaderData()
 
-    const [selectedAppearance, setSelectedAppearance] = useState('');
-    const [filterGames, setFilterGames] = useState('');
+    const [selectedAppearance, setSelectedAppearance] = useState('')
+    const [filterGames, setFilterGames] = useState('')
 
     const handleTextChange = (event) => {
-        setFilterGames(event.target.value);
-    };
+        setFilterGames(event.target.value)
+    }
 
     const handleSelectChange = (event) => {
-        setSelectedAppearance(event.target.value);
-    };
+        setSelectedAppearance(event.target.value)
+    }
 
-    const uniqueAppearances = new Set();
+    const uniqueAppearances = new Set()
+    
     tracksData.forEach(track => {
         track.appearances.forEach(appearance => {
-            uniqueAppearances.add(appearance);
-        });
-    });
+            uniqueAppearances.add(appearance)
+        })
+    })
 
-    const sortedUniqueAppearances = Array.from(uniqueAppearances).sort();
+    const sortedUniqueAppearances = Array.from(uniqueAppearances).sort()
 
     const filteredAndSortedTracks = tracksData
         .filter(track => {
-            return track.name.toLowerCase().includes(filterGames.toLowerCase());
+            return track.name.toLowerCase().includes(filterGames.toLowerCase())
         })
         .filter(track => {
-            return selectedAppearance === '' || track.appearances.includes(selectedAppearance);
+            return selectedAppearance === '' || track.appearances.includes(selectedAppearance)
         })
         .sort((a, b) => {
-            return a.name.localeCompare(b.name);
-        });
+            return a.name.localeCompare(b.name)
+        })
 
     return (
         <>
