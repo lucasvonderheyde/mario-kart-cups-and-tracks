@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Mario Kart Stadium",
       "cup": "Mushroom Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/0/09/MK8_Mario_Kart_Stadium_Course_Icon.png/359px-MK8_Mario_Kart_Stadium_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/0/09/MK8_Mario_Kart_Stadium_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -17,7 +17,7 @@
       "id": 2,
       "name": "Water Park",
       "cup": "Mushroom Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/4/40/MK8_Water_Park_Course_Icon.png/359px-MK8_Water_Park_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/4/40/MK8_Water_Park_Course_Icon.png",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -29,7 +29,7 @@
       "id": 3,
       "name": "Sweet Sweet Canyon",
       "cup": "Mushroom Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/a/ad/MK8_Sweet_Sweet_Canyon_Course_Icon.png/359px-MK8_Sweet_Sweet_Canyon_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/a/ad/MK8_Sweet_Sweet_Canyon_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -41,7 +41,7 @@
       "id": 4,
       "name": "Thwomp Ruins",
       "cup": "Mushroom Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/e/e8/MK8_Thwomp_Ruins_Course_Icon.png/359px-MK8_Thwomp_Ruins_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/e/e8/MK8_Thwomp_Ruins_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -54,7 +54,7 @@
       "id": 5,
       "name": "Mario Circuit",
       "cup": "Flower Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/2/28/MK8_Mario_Circuit_Course_Icon.png/359px-MK8_Mario_Circuit_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/2/28/MK8_Mario_Circuit_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -69,7 +69,7 @@
       "id": 6,
       "name": "Toad Harbor",
       "cup": "Flower Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/2/2a/MK8_Toad_Harbor_Course_Icon.png/359px-MK8_Toad_Harbor_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/2/2a/MK8_Toad_Harbor_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -82,7 +82,7 @@
       "id": 7,
       "name": "Twisted Mansion",
       "cup": "Flower Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/6/68/MK8_Twisted_Mansion_Course_Icon.png/359px-MK8_Twisted_Mansion_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/6/68/MK8_Twisted_Mansion_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -94,7 +94,7 @@
       "id": 8,
       "name": "Shy Guy Falls",
       "cup": "Flower Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/2/2a/MK8_Shy_Guy_Falls_Course_Icon.png/359px-MK8_Shy_Guy_Falls_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/2/2a/MK8_Shy_Guy_Falls_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -106,7 +106,7 @@
       "id": 9,
       "name": "Sunshine Airport",
       "cup": "Star Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/9/99/MK8_Sunshine_Airport_Course_Icon.png/359px-MK8_Sunshine_Airport_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/9/99/MK8_Sunshine_Airport_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -118,7 +118,7 @@
       "id": 10,
       "name": "Dolphin Shoals",
       "cup": "Star Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/f/fc/MK8_Dolphin_Shoals_Course_Icon.png/359px-MK8_Dolphin_Shoals_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/f/fc/MK8_Dolphin_Shoals_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -130,7 +130,7 @@
       "id": 11,
       "name": "Electrodrome",
       "cup": "Star Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/1/14/MK8_Electrodrome_Course_Icon.png/359px-MK8_Electrodrome_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/1/14/MK8_Electrodrome_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -142,7 +142,7 @@
       "id": 12,
       "name": "Mount Wario",
       "cup": "Star Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/3/38/MK8_Mount_Wario_Course_Icon.png/359px-MK8_Mount_Wario_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/3/38/MK8_Mount_Wario_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -154,7 +154,7 @@
       "id": 13,
       "name": "Cloudtop Cruise",
       "cup": "Special Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/8/81/MK8_Cloudtop_Cruise_Course_Icon.png/359px-MK8_Cloudtop_Cruise_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/8/81/MK8_Cloudtop_Cruise_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -166,7 +166,7 @@
       "id": 14,
       "name": "Bone-Dry Ruins",
       "cup": "Special Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/d/d3/MK8_Bone-Dry_Dunes_Course_Icon.png/359px-MK8_Bone-Dry_Dunes_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/d/d3/MK8_Bone-Dry_Dunes_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -178,7 +178,7 @@
       "id": 15,
       "name": "Bowser's Castle",
       "cup": "Special Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/2/2b/MK8_Bowser%27s_Castle_Course_Icon.png/359px-MK8_Bowser%27s_Castle_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/2/2b/MK8_Bowser%27s_Castle_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -190,7 +190,7 @@
       "id": 16,
       "name": "Rainbow Road",
       "cup": "Special Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/7/77/MK8_Rainbow_Road_Course_Icon.png/359px-MK8_Rainbow_Road_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/7/77/MK8_Rainbow_Road_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -202,7 +202,7 @@
       "id": 17,
       "name": "Moo Moo Meadows",
       "cup": "Shell Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/9/97/MK8_Wii_Moo_Moo_Meadows_Course_Icon.png/359px-MK8_Wii_Moo_Moo_Meadows_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/9/97/MK8_Wii_Moo_Moo_Meadows_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -215,7 +215,7 @@
       "id": 18,
       "name": "Mario Circuit",
       "cup": "Shell Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/f/f7/MK8_GBA_Mario_Circuit_Course_Icon.png/359px-MK8_GBA_Mario_Circuit_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/f/f7/MK8_GBA_Mario_Circuit_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -228,7 +228,7 @@
       "id": 19,
       "name": "Cheep Cheep Beach",
       "cup": "Shell Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/9/9e/MK8_DS_Cheep_Cheep_Beach_Course_Icon.png/359px-MK8_DS_Cheep_Cheep_Beach_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/9/9e/MK8_DS_Cheep_Cheep_Beach_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -241,7 +241,7 @@
       "id": 20,
       "name": "Toad's Turnpike",
       "cup": "Shell Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/5/55/MK8_N64_Toad%27s_Turnpike_Course_Icon.png/359px-MK8_N64_Toad%27s_Turnpike_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/5/55/MK8_N64_Toad%27s_Turnpike_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -254,7 +254,7 @@
       "id": 21,
       "name": "Dry Dry Desert",
       "cup": "Banana Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/6/64/MK8_GCN_Dry_Dry_Desert_Course_Icon.png/359px-MK8_GCN_Dry_Dry_Desert_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/6/64/MK8_GCN_Dry_Dry_Desert_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -267,7 +267,7 @@
       "id": 22,
       "name": "Donut Plains 3",
       "cup": "Banana Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/b/b1/MK8_SNES_Donut_Plains_3_Course_Icon.png/359px-MK8_SNES_Donut_Plains_3_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/b/b1/MK8_SNES_Donut_Plains_3_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -282,7 +282,7 @@
       "id": 23,
       "name": "Royal Raceway",
       "cup": "Banana Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/8/8a/MK8_N64_Royal_Raceway_Course_Icon.png/359px-MK8_N64_Royal_Raceway_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/8/8a/MK8_N64_Royal_Raceway_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -296,7 +296,7 @@
       "id": 24,
       "name": "DK Jungle",
       "cup": "Banana Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/3/35/MK8_3DS_DK_Jungle_Course_Icon.png/359px-MK8_3DS_DK_Jungle_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/3/35/MK8_3DS_DK_Jungle_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -309,7 +309,7 @@
       "id": 25,
       "name": "Wario Stadium",
       "cup": "Leaf Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/1/1a/MK8_DS_Wario_Stadium_Course_Icon.png/359px-MK8_DS_Wario_Stadium_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/1/1a/MK8_DS_Wario_Stadium_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -322,7 +322,7 @@
       "id": 26,
       "name": "Sherbet Land",
       "cup": "Leaf Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/3/3f/MK8_GCN_Sherbet_Land_Course_Icon.png/359px-MK8_GCN_Sherbet_Land_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/3/3f/MK8_GCN_Sherbet_Land_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -335,7 +335,7 @@
       "id": 27,
       "name": "Music Park",
       "cup": "Leaf Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/9/94/MK8_3DS_Music_Park_Course_Icon.png/359px-MK8_3DS_Music_Park_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/9/94/MK8_3DS_Music_Park_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -348,7 +348,7 @@
       "id": 28,
       "name": "Yoshi Valley",
       "cup": "Leaf Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/a/a4/MK8_N64_Yoshi_Valley_Course_Icon.png/359px-MK8_N64_Yoshi_Valley_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/a/a4/MK8_N64_Yoshi_Valley_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -362,7 +362,7 @@
       "id": 29,
       "name": "Tick-Tock Clock",
       "cup": "Lightning Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/0/0b/MK8_DS_Tick-Tock_Clock_Course_Icon.png/359px-MK8_DS_Tick-Tock_Clock_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/0/0b/MK8_DS_Tick-Tock_Clock_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -375,7 +375,7 @@
       "id": 30,
       "name": "Piranha Plant Slide",
       "cup": "Lightning Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/d/d1/MK8_3DS_Piranha_Plant_Slide_Course_Icon.png/359px-MK8_3DS_Piranha_Plant_Slide_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/d/d1/MK8_3DS_Piranha_Plant_Slide_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -389,7 +389,7 @@
       "id": 31,
       "name": "Grumble Volcano",
       "cup": "Lightning Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/b/b2/MK8_Wii_Grumble_Volcano_Course_Icon.png/359px-MK8_Wii_Grumble_Volcano_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/b/b2/MK8_Wii_Grumble_Volcano_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -402,7 +402,7 @@
       "id": 32,
       "name": "Rainbow Road",
       "cup": "Lightning Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/b/b9/MK8_N64_Rainbow_Road_Course_Icon.png/359px-MK8_N64_Rainbow_Road_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/b/b9/MK8_N64_Rainbow_Road_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -415,7 +415,7 @@
       "id": 33,
       "name": "Yoshi Circuit",
       "cup": "Egg Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/9/94/MK8_GCN_Yoshi_Circuit_Course_Icon.png/359px-MK8_GCN_Yoshi_Circuit_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/9/94/MK8_GCN_Yoshi_Circuit_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -430,7 +430,7 @@
       "id": 34,
       "name": "Excitebike Arena",
       "cup": "Egg Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/5/57/MK8_Excitebike_Arena_Course_Icon.png/359px-MK8_Excitebike_Arena_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/5/57/MK8_Excitebike_Arena_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -443,7 +443,7 @@
       "id": 35,
       "name": "Dragon Driftway",
       "cup": "Egg Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/b/bb/MK8_Dragon_Driftway_Course_Icon.png/359px-MK8_Dragon_Driftway_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/b/bb/MK8_Dragon_Driftway_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -455,7 +455,7 @@
       "id": 36,
       "name": "Mute City",
       "cup": "Egg Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/f/fa/MK8_Mute_City_Course_Icon.png/359px-MK8_Mute_City_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/f/fa/MK8_Mute_City_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -467,7 +467,7 @@
       "id": 37,
       "name": "Wario's Gold Mine",
       "cup": "Triforce Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/9/94/MK8_Wii_Wario%27s_Gold_Mine_Course_Icon.png/359px-MK8_Wii_Wario%27s_Gold_Mine_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/9/94/MK8_Wii_Wario%27s_Gold_Mine_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -480,7 +480,7 @@
       "id": 38,
       "name": "Rainbow Road",
       "cup": "Triforce Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/0/05/MK8_SNES_Rainbow_Road_Course_Icon.png/359px-MK8_SNES_Rainbow_Road_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/0/05/MK8_SNES_Rainbow_Road_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -490,13 +490,14 @@
         "Mario Kart 7",
         "Mario Kart Tour"
       ],
-      "map": ""
+      "map": "",
+      "favorite": true
     },
     {
       "id": 39,
       "name": "Ice Ice Outpost",
       "cup": "Triforce Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/c/c4/MK8_Ice_Ice_Outpost_Course_Icon.png/359px-MK8_Ice_Ice_Outpost_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/c/c4/MK8_Ice_Ice_Outpost_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -508,7 +509,7 @@
       "id": 40,
       "name": "Hyrule Cicuit",
       "cup": "Triforce Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/5/5e/MK8_Hyrule_Circuit_Course_Icon.png/359px-MK8_Hyrule_Circuit_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/5/5e/MK8_Hyrule_Circuit_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -520,7 +521,7 @@
       "id": 41,
       "name": "Baby Park",
       "cup": "Crossing Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/3/34/MK8_GCN_Baby_Park_Course_Icon.png/359px-MK8_GCN_Baby_Park_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/3/34/MK8_GCN_Baby_Park_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -536,7 +537,7 @@
       "id": 42,
       "name": "Cheese Land",
       "cup": "Crossing Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/1/15/MK8_GBA_Cheese_Land_Course_Icon.png/359px-MK8_GBA_Cheese_Land_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/1/15/MK8_GBA_Cheese_Land_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -549,7 +550,7 @@
       "id": 43,
       "name": "Wild Woods",
       "cup": "Crossing Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/e/e4/MK8_Wild_Woods_Course_Icon.png/359px-MK8_Wild_Woods_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/e/e4/MK8_Wild_Woods_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -561,7 +562,7 @@
       "id": 44,
       "name": "Animal Crossing",
       "cup": "Crossing Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/1/15/MK8_Animal_Crossing_Course_Icon.png/359px-MK8_Animal_Crossing_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/1/15/MK8_Animal_Crossing_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -573,7 +574,7 @@
       "id": 45,
       "name": "Neo Bowser City",
       "cup": "Bell Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/b/b0/MK8_3DS_Neo_Bowser_City_Course_Icon.png/359px-MK8_3DS_Neo_Bowser_City_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/b/b0/MK8_3DS_Neo_Bowser_City_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -587,7 +588,7 @@
       "id": 46,
       "name": "Ribbon Road",
       "cup": "Bell Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/e/e2/MK8_GBA_Ribbon_Road_Course_Icon.png/359px-MK8_GBA_Ribbon_Road_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/e/e2/MK8_GBA_Ribbon_Road_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -600,7 +601,7 @@
       "id": 47,
       "name": "Super Bell Subway",
       "cup": "Bell Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/7/7e/MK8_Super_Bell_Subway_Course_Icon.png/359px-MK8_Super_Bell_Subway_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/7/7e/MK8_Super_Bell_Subway_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
@@ -612,7 +613,7 @@
       "id": 48,
       "name": "Big Blue",
       "cup": "Bell Cup",
-      "image": "https://mario.wiki.gallery/images/thumb/0/06/MK8_Big_Blue_Course_Icon.png/359px-MK8_Big_Blue_Course_Icon.png",
+      "image": "https://mario.wiki.gallery/images/0/06/MK8_Big_Blue_Course_Icon.png?download",
       "preview": "",
       "appearances": [
         "Mario Kart 8",
