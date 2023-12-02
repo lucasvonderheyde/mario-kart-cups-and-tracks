@@ -2,7 +2,7 @@
 
 This React application is a tribute to the Mario Kart series. It's designed to assist fans in navigating the plethora of tracks available across different games by sorting them into their respective cups. Moreover, the app offers a search feature, allowing users to filter tracks by attributes such as names and appearances in various games.
 
-![Alt Text](/mariokartwebapp.gif)
+![Alt Text](public/mariokartwebapp.gif)
 
 
 ## Project Overview
